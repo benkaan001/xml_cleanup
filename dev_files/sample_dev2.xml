@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DEFTABLE>
+    <FOLDER MAIN_FOLDER_NAME="CLOUD-D-REVENUE" SUB_FOLDER_NAME="CLOUD-D-REVENUE-SALES" JOBNAME="Revenue">
+        <JOB JOB_NAME="ReportingJob1" JOB_DURATION="2h" PRIORITY="Low" OWNER="Eve" SECRET="vaultkeyd1">
+            <VARIABLE NAME="%%input_data" VALUE="data_source1" />
+            <VARIABLE NAME="%%output_report" VALUE="report1.pdf" />
+            <VARIABLE NAME="%%log_file" VALUE="report_log1.txt" />
+        </JOB>
+        <JOB JOB_NAME="ReportingJob2" JOB_DURATION="1h" PRIORITY="High" OWNER="Dave" SECRET="vaultkeyd2">
+            <VARIABLE NAME="%%input_data" VALUE="data_source2" />
+            <VARIABLE NAME="%%output_report" VALUE="report2.pdf" />
+            <VARIABLE NAME="%%log_file" VALUE="report_log2.txt" />
+        </JOB>
+    </FOLDER>
+</DEFTABLE>
+
+
